@@ -1,0 +1,58 @@
+import { Transformation } from '../types';
+
+export const transformationsData: Transformation[] = [
+  {
+    id: '1',
+    category: 'laser',
+    title: 'Laser Hair Removal',
+    titleAr: 'إزالة الشعر بالليزر',
+    treatment: 'Case preview placeholder',
+    treatmentAr: 'نموذج عرض مؤقت',
+    bgColor: 'from-rose-100 to-pink-100',
+  },
+  {
+    id: '2',
+    category: 'skincare',
+    title: 'Skin Rejuvenation',
+    titleAr: 'تجديد البشرة',
+    treatment: 'Case preview placeholder',
+    treatmentAr: 'نموذج عرض مؤقت',
+    bgColor: 'from-blue-100 to-cyan-100',
+  },
+  {
+    id: '3',
+    category: 'injectables',
+    title: 'Facial Harmony',
+    titleAr: 'تناغم الملامح',
+    treatment: 'Case preview placeholder',
+    treatmentAr: 'نموذج عرض مؤقت',
+    bgColor: 'from-purple-100 to-pink-100',
+  },
+  {
+    id: '4',
+    category: 'dermatology',
+    title: 'Acne & Scar Care',
+    titleAr: 'علاج آثار حب الشباب',
+    treatment: 'Case preview placeholder',
+    treatmentAr: 'نموذج عرض مؤقت',
+    bgColor: 'from-emerald-100 to-teal-100',
+  },
+  {
+    id: '5',
+    category: 'surgery',
+    title: 'Plastic Surgery Consultation',
+    titleAr: 'استشارة جراحة تجميل',
+    treatment: 'Approved cases can be added here',
+    treatmentAr: 'تُضاف الحالات المعتمدة هنا',
+    bgColor: 'from-orange-100 to-rose-100',
+  },
+  {
+    id: '6',
+    category: 'body',
+    title: 'Body Contouring',
+    titleAr: 'نحت الجسم',
+    treatment: 'Case preview placeholder',
+    treatmentAr: 'نموذج عرض مؤقت',
+    bgColor: 'from-violet-100 to-purple-100',
+  },
+];
